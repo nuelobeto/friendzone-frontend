@@ -1,0 +1,51 @@
+.home {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(58, 70, 75);
+  padding-top: 3rem;
+
+  h1 {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+
+.create-chat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+
+  input {
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid rgb(31, 37, 39);
+    background-color: rgb(31, 37, 39);
+    padding-left: 1rem;
+    font-size: 16px;
+    color: #fff;
+    caret-color: rgb(13, 196, 107);
+  }
+
+  button {
+    padding: 0.75rem;
+    border: 1px solid rgb(13, 196, 107);
+    background-color: rgb(13, 196, 107);
+    color: #fff;
+    justify-content: center;
+    font-size: 16px;
+  }
+}

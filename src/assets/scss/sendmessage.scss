@@ -1,0 +1,38 @@
+.send-msg {
+  height: 10%;
+  background-color: rgb(41, 48, 51);
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+
+  .input-wrapper {
+    width: 100%;
+    position: relative;
+    height: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+
+    input {
+      width: 100%;
+      height: 100%;
+      outline: none;
+      border: 1px solid rgb(31, 37, 39);
+      background-color: rgb(31, 37, 39);
+      padding-left: 1rem;
+      font-size: 16px;
+      color: #fff;
+      caret-color: rgb(13, 196, 107);
+    }
+
+    svg {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 1rem;
+      font-size: 25px;
+      color: rgb(13, 196, 107);
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+nav {
+  background-color: rgb(41, 48, 51);
+  height: 10%;
+}
+
+.toolbar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  .exit-chat {
+    padding: 0.5rem;
+    border: 1px solid rgb(138, 174, 189);
+    background-color: rgb(67, 108, 126);
+    color: rgb(209, 209, 209);
+    font-size: 18px;
+  }
+
+  .share-room {
+    color: rgb(13, 196, 107);
+    cursor: pointer;
+    border: 1px solid rgb(63, 76, 82);
+    background-color: rgb(41, 48, 51);
+    padding: 0.5rem;
+    font-size: 16px;
+  }
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  .user-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(58, 70, 75);
+    overflow: hidden;
+  }
+
+  span {
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+  }
+}
